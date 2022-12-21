@@ -1,0 +1,38 @@
+.container{
+    width: 500px;
+    margin: 50px auto;
+    background-color: #FFA500;
+    text-align: center;
+}
+
+.search-box{
+    display: flex;
+    align-items: center;
+}
+
+.search-box h1{
+    margin: 20px 20px;
+}
+
+.search-box input{
+    padding: 5px 20px;
+}
+
+#name-box{
+    padding: 20px 10px;
+    background-color: #4169E1;
+}
+
+.searched-name-box{
+    margin: 10px 0;
+    padding: 5px 0;
+    width: 100%;
+    background-color: white;
+}
+
+.searched-name-box button{
+    width: 100%;
+    padding: 5px 0;
+    background-color: white;
+    border: none;
+}

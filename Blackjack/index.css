@@ -1,0 +1,26 @@
+body{
+    background-image: url(/Projects/Blackjack/images/background.jpg);
+    background-size: cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size:x-large;
+    color: beige;
+}
+
+h1{
+    color: #e7cc35;
+}
+
+#message-el{
+    font-style: italic;
+}
+
+button{
+    padding: 10px 50px 10px 50px;
+    background-color:#d6961f;
+    border: none;
+    font-size: large;
+    font-weight: bold;
+    color: #126202;
+}

@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link href="https://www.dafontfree.net/embed/Y3Vyc2VkLXRpbWVyLXVsaWwtcmVndWxhciZkYXRhLzE1MjYvYy8xNzA5ODcvQ3Vyc2VkVGltZXJVTGlMLnR0Zg" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div class="container">
+            <div class="column-1">
+                <h1 id="home-el">HOME</h1>
+                <div class="panel">
+                    <div class="score-el">
+                        <h1 id="score-title">SCORE</h1>
+                        <div class="number-background"><span id="score-home">0</span></div>
+                        <div class="increment-values">
+                            <button onclick="add('score-home', 1)">+1</button>
+                            <button onclick="add('score-home', 2)">+2</button>
+                            <button onclick="add('score-home', 3)">+3</button>                  
+                        </div>
+                    </div>
+                    <div class="period-el">
+                        <h1 id="period-title">PERIOD</h1>
+                        <div class="number-background"><span id="period-home">0</span></div>
+                        <div class="increment-values">
+                            <button onclick="add('period-home', 1)">+1</button>
+                            <button onclick="add('period-home', 2)">+2</button>
+                            <button onclick="add('period-home', 3)">+3</button>                  
+                        </div>
+                    </div>
+                    <div class="fouls-el">
+                        <h1 id="fouls-title">FOULS</h1>
+                        <div class="number-background"><span id="fouls-home">0</span></div>
+                        <div class="increment-values">
+                            <button onclick="add('fouls-home', 1)">+1</button>
+                            <button onclick="add('fouls-home', 2)">+2</button>
+                            <button onclick="add('fouls-home', 3)">+3</button>                  
+                        </div>
+                    </div> 
+                </div>         
+            </div>
+            <div class="column-2">
+                <h1 id="guest-el">GUEST</h1>
+                <div class="panel">
+                    <div class="score-el">
+                        <h1 id="score-title">SCORE</h1>
+                        <div class="number-background"><span id="score-guest">0</span></div>
+                        <div class="increment-values">
+                            <button onclick="add('score-guest', 1)">+1</button>
+                            <button onclick="add('score-guest', 2)">+2</button>
+                            <button onclick="add('score-guest', 3)">+3</button>                  
+                        </div>
+                    </div>
+                    <div class="period-el">
+                        <h1 id="period-title">PERIOD</h1>
+                        <div class="number-background"><span id="period-guest">0</span></div>
+                        <div class="increment-values">
+                            <button onclick="add('period-guest', 1)">+1</button>
+                            <button onclick="add('period-guest', 2)">+2</button>
+                            <button onclick="add('period-guest', 3)">+3</button>                  
+                        </div>
+                    </div>
+                    <div class="fouls-el">
+                        <h1 id="fouls-title">FOULS</h1>
+                        <div class="number-background"><span id="fouls-guest">0</span></div>
+                        <div class="increment-values">
+                            <button onclick="add('fouls-guest', 1)">+1</button>
+                            <button onclick="add('fouls-guest', 2)">+2</button>
+                            <button onclick="add('fouls-guest', 3)">+3</button>                  
+                        </div>
+                    </div> 
+                </div> 
+            </div>
+            <div class="column-3">
+                <button id="reset-el" onclick="reset('score-home','score-guest'), reset('period-home','period-guest'), reset('fouls-home','fouls-guest')">Reset Scores</button>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

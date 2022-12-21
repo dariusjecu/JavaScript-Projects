@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    display: flex;
+    margin: auto;
+    background-color: rgb(196, 142, 75);
+}
+
+.container{
+    background-color: white;
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    border: none;
+    border-radius: 10px;
+    box-shadow: -5px 5px 15px;
+    padding: 20px 0;
+}
+
+.player{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.score-all{
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.dice{
+    background-color: rgb(209, 173, 128);
+    width: 70px;
+    padding: 10px 0;
+    border: none;
+    border-radius: 10px;
+    box-shadow: -3px 3px 10px;
+}
+
+button{
+    padding: 10px 30px;
+    margin: 20px 0;
+}
+
+.game-dice{
+    background-color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.game-dice:hover{
+    background-color: #D1AD80;
+}
+
+#again-dice{
+    display: none;
+}

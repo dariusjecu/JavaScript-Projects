@@ -1,0 +1,69 @@
+
+.container{
+    background-color: #1b244a;
+    position: absolute;
+    text-align: center;
+    padding-left:20px; 
+    padding-bottom:20px;  
+    padding-right:20px; 
+    border: 10px solid #000000;  
+}
+
+.column-1{
+    padding-right:30px;
+}
+
+h1{
+    color: #eeeeee;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+span{
+    font-size: 50px;
+    color: #F94F6D;
+    font-family: Cursed Timer ULiL;
+}
+
+.number-background{
+    background-color: black;
+    padding: 20px 0px 20px 0px;
+}
+
+.increment-values{
+    margin-top: 20px;
+}
+
+.score-el{
+    
+    padding: 0px 10px 10px 10px;
+    margin: 0px 5px 5px 5px;
+}
+
+.period-el{
+    padding: 0px 10px 10px 10px;
+    margin: 0px 5px 5px 5px;
+}
+
+.fouls-el{
+    padding: 0px 10px 10px 10px;
+    margin: 0px 5px 5px 5px;
+}
+
+button{
+    margin: 3px;
+    padding: 10px;
+    background-color: #1b244a;
+    color: #eeeeee;
+    border: 1px solid #eeeeee;
+    font-family: Cursed Timer ULiL;
+    border-radius: 5px;
+}
+
+.panel{
+    display:flex;
+}
+
+#reset-el{
+    padding: 5% 40% 5% 40%;
+    margin-top: 20px;
+}

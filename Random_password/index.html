@@ -1,0 +1,29 @@
+<html>
+<head>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+            <span>Generate a<br><span class="new-color">random password</span></span>
+            <p>Never use an insecure password again.</p>
+            <div>
+                <button onclick="generate_pass()">Generate passwords</button>
+                <input id="pass-lenght" type="text" onchange="getValue()" onfocus="if(this.value=='How many characters')this.value=''" onblur="if(this.value=='')this.value='How many characters'">
+            </div>
+            <p class="spacer"></p>
+            <div class="password-blocks">
+                <p id="pass1" class="pass-block" onclick="copy_text('pass1')"></p>
+                <p id="pass2" class="pass-block" onclick="copy_text('pass2')"></p>                
+            </div>
+            <div class="password-blocks">
+                <button id="symbol-el" class="pass-block" onclick="symbols()">Symbols: ON</button>
+                <button id="numbers-el" class="pass-block" onclick="numbers()">Numbers: ON</button>                
+            </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
+
